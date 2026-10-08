@@ -40,3 +40,6 @@ INSERT INTO employees VALUES (5, 'Esther', 'Niyonsenga', 99, 520000,  DATE '2018
 INSERT INTO employees VALUES (6, 'Frank', 'Kamanzi', 10, 0,  DATE '2019-09-09', 'ACTIVE');
 INSERT INTO employees VALUES (7, 'Grace', 'Mukamana', 30, 1200000, DATE '2010-02-14', 'ACTIVE');
 COMMIT;
+
+   SELECT COUNT(*) FROM departments;   -- expect 3
+   SELECT COUNT(*) FROM employees;     -- expect 7
